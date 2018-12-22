@@ -1,0 +1,6 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET         /v1/features/:base64Id  v1.controllers.DataApiAggregatorController.getFeatures(base64Id)
+POST        /v1/features            v1.controllers.DataApiAggregatorController.getBulkFeatures

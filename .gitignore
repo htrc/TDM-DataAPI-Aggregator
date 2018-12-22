@@ -1,0 +1,6 @@
+/logs/
+target/
+project/project/
+/.idea/
+/RUNNING_PID
+/conf/application.conf
